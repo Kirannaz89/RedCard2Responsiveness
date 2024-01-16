@@ -1,0 +1,177 @@
+# style.css
+
+body {
+	padding:0px;
+	margin:0px;
+}
+
+.header {
+ background-color: maroon;
+ padding-top: 40px;
+ padding-left: 70px;
+ padding-bottom: 50px;
+ color:white; 
+ folat:center;
+}
+h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+h3 {
+	color:black;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+
+.img {
+width: 50.3px;
+height: 50.3px;
+float: right; 
+background-color: white;
+-ms-transform: rotate( 180deg); /* IE 9 */
+           transform: rotate(180deg);
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  color:black;
+  text-align:ceter;
+ /* Should be removed. Only for demonstration */
+}
+.p {
+  letter-spacing: 3px;
+}
+p {
+  color: maroon;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  padding-top: 30px;
+  content: "";
+  display: table;
+  clear: both;
+  }
+.column1 {
+  width:50%;
+  float:left;
+}
+.row1:after{
+padding-top: 30px;
+  content: "";
+  display: table;
+  clear: both;
+}
+.img1 {
+  padding-top: 25px;
+  float:left;
+}
+
+h2 {  
+color: black;
+float:left;
+clear:both;
+}
+
+.footer {
+background-color:maroon;
+ margin-top: 50px;
+ padding:50px;
+ padding-right: 0px;
+ }
+ .h3 {
+ color:white; 
+ font-size: 45px;
+}
+
+@media all and (max-width:1020px){
+
+.header {
+  width:100%;
+  padding-left: 10px;
+}
+
+.column {width:20%;
+}
+.footer {
+        width:100%;
+
+
+}
+
+}
+@media all and (max-width:920px){
+
+.header {
+  width:100%;
+  padding-left: 10px;
+}
+
+.column {width:20%;
+}
+.footer {
+        width:100%;
+
+
+}
+
+}
+
+
+@media all and (max-width:768px){
+
+.header {
+  width:100%;
+  padding-left: 10px;
+}
+
+.column {width:20%;
+}
+.footer {
+        width:100%;
+
+
+}
+
+}
+
+@media all and (max-width:576px){
+
+.header {
+  width:100%;
+  padding-left: 10px;
+}
+
+.column {width:20%;
+}
+.footer {
+        width:100%;
+
+
+}
+
+}
+
+@media all and (max-width:320px){
+
+.header {
+  width:100%;
+  padding-left: 10px;
+}
+
+.column {width:50%;
+}
+.footer {
+        width:100%;
+
+
+}
+
+}
+
+
